@@ -1,0 +1,104 @@
+.conteudo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.conteudo_backgroud {
+  position: fixed;
+  z-index: -1;
+  top: 17%;
+  left: 28%;
+}
+
+.background {
+  width: 800px;
+  height: auto;
+  opacity: 0.1;
+}
+
+.info {
+  width: 60%;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.info_search {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  color: #999999;
+  border: 1px solid #999999;
+  border-radius: 22px;
+  min-width: 250px;
+  width: 80%;
+  margin-right: 12px;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  border: 1px solid #999999;
+  background: #2d333b;
+  color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.perfil {
+  display: flex;
+  margin: 40px 0;
+}
+
+.perfil h3 {
+  color: #999999;
+  font-size: 24px;
+  margin: 0;
+}
+
+.perfil span {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.perfil p {
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.perfil_description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-right: 32px;
+  box-shadow: 3px 3px 6px #999999, -3px -3px 6px #fff;
+}
+
+.repositorios {
+  font-size: 32px;
+  color: #fff;
+  margin: 12px 0;
+  text-align: center;
+}
